@@ -1,0 +1,18 @@
+Release Date: 05/08/2013
+
+Release Version: 1.2
+
+The following feature have been pushed to the latest :
+
+1. Introduced Buddy Management Service.
+	 One can now 
+		- create his own buddy group,
+		- send a friend requests,
+		- reject a friend requests,
+		- check in with current location,
+		- send private as well as group messages and a lot more.
+2. Added Buddy Service related APIs to Scoreboard Service, and Upload Service.
+3. Insert and find Docs by location using Storage Service.
+4. Logout feature in User Service.
+5. Added addComment / getComment feature in Review Service.
+6. Unsubscribe a device from Push Service.
