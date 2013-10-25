@@ -19,8 +19,4 @@ None
 ```
 
 
-**This release contains the following bug fix:**
 
-```
-None
-```
