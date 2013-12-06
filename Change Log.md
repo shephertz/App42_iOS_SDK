@@ -1,3 +1,4 @@
+* [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/tree/master/1.8)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/tree/master/1.7)
 
 ## Version 1.8
