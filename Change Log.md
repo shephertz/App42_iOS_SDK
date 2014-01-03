@@ -1,7 +1,21 @@
+* [Release Version 2.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+## Version 2.1
+
+**Release Date:** 03-01-2014
+
+**Release Version:** 2.1
+
+**The following features have been pushed :**
+
+```
+Log uncaught exception
+```
+
 
 ## Version 2.0
 
