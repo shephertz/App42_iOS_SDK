@@ -1,9 +1,24 @@
+* [Release Version 2.1.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-212)
 * [Release Version 2.1.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-211)
 * [Release Version 2.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 2.1.2
+
+**Release Date:** 06-03-2014
+
+**Release Version:** 2.1.2
+
+**This release contains the following bug fix:**
+
+```
+Fixed bug in BuddyService.
+```
+
 
 
 ## Version 2.1.1
