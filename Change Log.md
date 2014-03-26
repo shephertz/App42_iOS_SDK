@@ -1,3 +1,4 @@
+* [Release Version 2.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-212)
 * [Release Version 2.1.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-211)
 * [Release Version 2.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-21)
@@ -5,6 +6,63 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 2.2
+ 
+
+**Release Date:** 26-03-2014
+
+**Release Version:** 2.2
+
+**The following features have been pushed  :**
+
+```
++(void) setDbName:(NSString*) l_dbName;//Added to App42API
+-(void) setQuery:(NSString*)_collectionName metaInfoQuery:(Query*) _metaInfoQuery;//Added to All Services
+```
+
+**The following features have been pushed to the services :**
+
+**PUSH SERVICE**
+
+```
+deleteAllDevices
+
+```
+
+**STORAGE SERVICE**
+
+```
+addOrUpdateKeys
+addAttachmentToDocs
+```
+
+**User SERVICE**
+
+```
+addUserInfo(Add Extra Information while creating user)
+```
+
+**SCOREBOARD SERVICE**
+
+```
+addCustomScore(Add Extra Information of user while saves score)
+```
+
+**REVIEW SERVICE**
+
+```
+getAllReviewsByUser
+```
+
+
+**This release contains the following bug fix:**
+
+```
+None
+```
+
 
 
 ## Version 2.1.2
