@@ -1,3 +1,4 @@
+* [Release Version 2.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-212)
 * [Release Version 2.1.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-211)
@@ -6,6 +7,31 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 2.3
+ 
+
+**Release Date:** 29-03-2014
+
+**Release Version:** 2.3
+
+
+**The following features have been pushed to the services :**
+
+**PUSH SERVICE**
+
+```
+unsubscribeDeviceForUser
+resubscribeDeviceForUser
+
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 
 ## Version 2.2
@@ -60,7 +86,7 @@ getAllReviewsByUser
 **This release contains the following bug fix:**
 
 ```
-None
+Fixed bug in editScoreValueById
 ```
 
 
