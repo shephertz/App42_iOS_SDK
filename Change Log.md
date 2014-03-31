@@ -87,6 +87,7 @@ getAllReviewsByUser
 
 ```
 Fixed bug in editScoreValueById
+Fixed bug throwing exception in case of wrong parameter like null, empty or no internet connection,request time-out etc.
 ```
 
 
