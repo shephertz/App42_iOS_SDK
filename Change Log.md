@@ -86,8 +86,8 @@ getAllReviewsByUser
 **This release contains the following bug fix:**
 
 ```
-Fixed bug in editScoreValueById
-Fixed bug throwing exception in case of wrong parameter like null, empty or no internet connection,request time-out etc.
+Bug Fix: editScoreValueById 
+Bug Fix: throwing exception in case of wrong parameter like null, empty or no internet connection,request time-out etc.
 ```
 
 
