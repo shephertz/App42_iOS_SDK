@@ -1,3 +1,4 @@
+* [Release Version 2.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-25)
 * [Release Version 2.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-22)
@@ -8,6 +9,30 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 2.5
+ 
+
+**Release Date:** 11-04-2014
+
+**Release Version:** 2.5
+
+
+**The following features have been pushed to the services :**
+
+**PUSH SERVICE**
+
+```
+sendPushMessageToDevice
+
+```
+
+**This release contains the following bug fix:**
+
+```
+Fixed selectKeys bug
+```
 
 
 ## Version 2.4
