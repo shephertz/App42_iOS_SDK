@@ -33,7 +33,7 @@ unFriend
 **This release contains the following bug fix:**
 
 ```
-Fixed selectKeys bug
+None
 ```
 
 ## Version 2.5
