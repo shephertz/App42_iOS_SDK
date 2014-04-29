@@ -52,9 +52,7 @@ getAllReviewsByUser
 
 ```
 insertJSONDocumentWithAttachment
-updateDocumentByQueryWithJsonString
-updateDocumentByQueryWithNSDictionary
-findDocumentsByQueryCount
+updateDocumentByQuery
 
 ```
 
