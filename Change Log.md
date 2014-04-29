@@ -1,3 +1,4 @@
+* [Release Version 2.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-27)
 * [Release Version 2.6](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-26)
 * [Release Version 2.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-25)
 * [Release Version 2.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-24)
@@ -10,6 +11,67 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+
+## Version 2.7
+ 
+
+**Release Date:** 29-04-2014
+
+**Release Version:** 2.7
+
+
+**The following features have been pushed to the services :**
+
+**GEO SERVICE**
+
+```
+getAllStorageByPaging
+getAllPointsByPaging
+deleteGeoPoints  
+
+```
+
+**PUSH SERVICE**
+
+```
+updatePushBadgeforDevice
+updatePushBadgeforUser
+
+```
+
+**REVIEW SERVICE**
+
+```
+getAllReviewsByUser
+
+```
+
+**STORAGE SERVICE**
+
+```
+insertJSONDocumentWithAttachment
+updateDocumentByQueryWithJsonString
+updateDocumentByQueryWithNSDictionary
+findDocumentsByQueryCount
+
+```
+
+**USER SERVICE**
+
+```
+createUserWithProfile
+getUsersByGroup
+
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
+
 
 ## Version 2.6
  
