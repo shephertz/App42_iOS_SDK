@@ -1,3 +1,4 @@
+* [Release Version 2.6](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-26)
 * [Release Version 2.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-25)
 * [Release Version 2.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-23)
@@ -10,6 +11,30 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
+## Version 2.6
+ 
+
+**Release Date:** 14-04-2014
+
+**Release Version:** 2.6
+
+
+**The following features have been pushed to the services :**
+
+**BUDDY SERVICE**
+
+```
+deleteMessageById
+deleteMessageByIds
+unFriend  
+
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.5
  
