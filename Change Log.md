@@ -1,3 +1,4 @@
+* [Release Version 2.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-28)
 * [Release Version 2.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-27)
 * [Release Version 2.6](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-26)
 * [Release Version 2.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-25)
@@ -13,6 +14,28 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
 
+
+## Version 2.8
+ 
+
+**Release Date:** 20-06-2014
+
+**Release Version:** 2.8
+
+
+**The following Services have been pushed to the latest :**
+
+```
+GiftService
+TimerService
+
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.7
  
