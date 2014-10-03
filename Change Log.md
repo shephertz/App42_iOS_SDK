@@ -1,3 +1,4 @@
+* [Release Version 2.8.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-282)
 * [Release Version 2.8.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-281)
 * [Release Version 2.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-28)
 * [Release Version 2.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-27)
@@ -14,6 +15,21 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
+
+
+## Version 2.8.2
+ 
+
+**Release Date:** 03-10-2014
+
+**Release Version:** 2.8.2
+
+
+**This release contains the following bug fix:**
+
+```
+-iOS8 compatibility issue
+```
 
 ## Version 2.8.1
  
