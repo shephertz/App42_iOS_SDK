@@ -1,3 +1,4 @@
+* [Release Version 3.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-30)
 * [Release Version 2.8.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-282)
 * [Release Version 2.8.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-281)
 * [Release Version 2.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-28)
@@ -15,7 +16,24 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
+## Version 3.0
+ 
 
+**Release Date:** 28-10-2014
+
+**Release Version:** 3.0
+**The following Services have been pushed to the latest :**
+
+```
+EventService
+
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.8.2
  
