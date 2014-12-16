@@ -25,7 +25,7 @@
 
 **Release Version:** 3.1
 
-Note:- We are releasing a separate SDK with asynchronous APIs. The Synchronous APIs are deprecated now and will be removed from SDK version 4.0 onwards.
+__Note:-__ We are releasing a separate framework with asynchronous APIs. The Synchronous APIs are deprecated now and will be removed from the framework version 4.0 onwards.
 
 **The following features have been pushed to the services :**
 ```
