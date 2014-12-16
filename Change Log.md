@@ -1,3 +1,4 @@
+* [Release Version 3.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-31)
 * [Release Version 3.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-30)
 * [Release Version 2.8.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-282)
 * [Release Version 2.8.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-281)
@@ -15,6 +16,26 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 3.1
+ 
+
+**Release Date:** 16-12-2014
+
+**Release Version:** 3.1
+Note:- We are releasing a separate SDK with asynchronous APIs. The Synchronous APIs are deprecated now and will be removed from SDK version 4.0 onwards.
+
+**The following features have been pushed to the services :**
+```
+-Async APIs
+-Offline Storage and caching
+```
+**This release contains the following bug fix:**
+```
+None
+```
+
 
 ## Version 3.0
  
