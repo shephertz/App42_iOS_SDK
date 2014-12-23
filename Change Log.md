@@ -29,7 +29,7 @@
 **Feature :** 
 
 ```
-__App42 iOS AsyncAPI now supports Swift__
+App42 iOS AsyncAPI now supports Swift
 ```
 
 **This release contains the following bug fix:**
