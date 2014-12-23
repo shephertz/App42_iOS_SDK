@@ -1,3 +1,4 @@
+* [Release Version 3.1.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-311)
 * [Release Version 3.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-31)
 * [Release Version 3.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-30)
 * [Release Version 2.8.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-282)
@@ -18,8 +19,23 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
 
-## Version 3.1
+## Version 3.1.1
  
+
+**Release Date:** 23-12-2014
+
+**Release Version:** 3.1.1
+
+__Note:-__ We are releasing a separate framework with asynchronous APIs. The Synchronous APIs are deprecated now and will be removed from the framework version 4.0 onwards.
+
+__App42 iOS AsyncAPI now supports Swift__
+
+**This release contains the following bug fix:**
+```
+None
+```
+
+## Version 3.1
 
 **Release Date:** 16-12-2014
 
@@ -36,7 +52,6 @@ __Note:-__ We are releasing a separate framework with asynchronous APIs. The Syn
 ```
 None
 ```
-
 
 ## Version 3.0
  
