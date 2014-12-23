@@ -26,14 +26,18 @@
 
 **Release Version:** 3.1.1
 
-__Note:-__ We are releasing a separate framework with asynchronous APIs. The Synchronous APIs are deprecated now and will be removed from the framework version 4.0 onwards.
+**Feature :** 
 
+```
 __App42 iOS AsyncAPI now supports Swift__
+```
 
 **This release contains the following bug fix:**
 ```
 None
 ```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
+
 
 ## Version 3.1
 
