@@ -3,13 +3,13 @@ App42_iOS_SDK
 
 App42 Cloud API Client SDK files for iOS
 
-**Third Party Libraries
+__Third Party Libraries__
 
-*[SBJson](http://www.sbjson.org/api/3.2/)
+* [SBJson](http://www.sbjson.org/api/3.2/)
 ```
 BSD License
 ```
-*[Base64Transcoder](https://github.com/couchbaselabs/ios-oauthconsumer/blob/master/Crypto/Base64Transcoder.h)
+* [Base64Transcoder](https://github.com/couchbaselabs/ios-oauthconsumer/blob/master/Crypto/Base64Transcoder.h)
 ```
 Created by Jonathan Wight on Tue Mar 18 2003.
 Copyright (c) 2003 Toxic Software. All rights reserved.
