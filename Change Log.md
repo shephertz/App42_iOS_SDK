@@ -1,3 +1,5 @@
+* [Release Version 3.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-34)
+* [Release Version 3.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-33)
 * [Release Version 3.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-32)
 * [Release Version 3.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-31)
 * [Release Version 3.0](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-30)
