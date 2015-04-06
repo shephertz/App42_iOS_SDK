@@ -29,7 +29,7 @@
 **Feature :** 
 
 ```
-Uninstall tracking
+App42 iOS AsyncAPI now supports Uninstall tracking
 ```
 
 **This release contains the following bug fix:**
