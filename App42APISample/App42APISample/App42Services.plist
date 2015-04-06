@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>User Service</key>
+	<array>
+		<string>CreateUser</string>
+		<string>CreateUserWithRoles</string>
+		<string>AssignRoles</string>
+		<string>GetUserByName</string>
+		<string>GetRolesByUser</string>
+		<string>GetUsersByRole</string>
+		<string>GetAllUsersCount</string>
+		<string>GetLockedUsersCount</string>
+		<string>GetAllUsers</string>
+		<string>GetAllUsersByPaging</string>
+		<string>GetLockedUsers</string>
+		<string>GetLockedUsersByPaging</string>
+		<string>GetUserByEmailId</string>
+		<string>UpdateEmail</string>
+		<string>DeleteUser</string>
+		<string>CreateOrUpdateProfile</string>
+		<string>AuthenticateUser</string>
+		<string>LockUser</string>
+		<string>UnlockUser</string>
+		<string>ChangeUserPassword</string>
+		<string>ResetUserPassword</string>
+		<string>RevokeRole</string>
+		<string>RevokeAllRoles</string>
+		<string>GetUsersByProfileData</string>
+		<string>Logout</string>
+		<string>CreateUserWithProfile</string>
+		<string>GetUsersByGroup</string>
+	</array>
+	<key>Reward Service</key>
+	<array>
+		<string>CreateReward</string>
+		<string>GetAllRewardsCount</string>
+		<string>GetAllRewards</string>
+		<string>GetAllRewardsByPaging</string>
+		<string>GetRewardByName</string>
+		<string>EarnRewards</string>
+		<string>RedeemRewards</string>
+		<string>GetGameRewardPointsForUser</string>
+		<string>GetTopNRewardEarners</string>
+		<string>GetAllRewardsByUser</string>
+		<string>GetTopNRewardEarnersByGroup</string>
+		<string>GetUserRankingOnReward</string>
+	</array>
+	<key>PushNotification Service</key>
+	<array>
+		<string>RegisterDeviceToken</string>
+		<string>CreateChannelForApp</string>
+		<string>SubscribeToChannel</string>
+		<string>UnsubscribeFromChannel</string>
+		<string>SubscribeToChannelWithDeviceToken</string>
+		<string>SubscribeToChannelWithTokenType</string>
+		<string>UnsubscribeDeviceToChannel</string>
+		<string>SendPushMessageToChannel</string>
+		<string>SendPushMessageDictToChannel</string>
+		<string>SendPushMessageToAll</string>
+		<string>SendPushMessageToiOS</string>
+		<string>SendPushMessageToAndroid</string>
+		<string>SendPushMessageToUser</string>
+		<string>SendPushMessageDictToUser</string>
+		<string>SendPushToTargetUsers</string>
+		<string>SendPushMessageToGroup</string>
+		<string>SendMessageToInActiveUsersFromDate</string>
+		<string>ScheduleMessageToUser</string>
+		<string>DeleteDeviceToken</string>
+		<string>DeleteAllDevices</string>
+		<string>UnsubscribeDeviceForUser</string>
+		<string>ResubscribeDeviceForUser</string>
+		<string>SendPushMessageToDevice</string>
+		<string>UpdatePushBadgeforDevice</string>
+		<string>UpdatePushBadgeforUser</string>
+		<string>DeleteChannel</string>
+	</array>
+	<key>Storage Service</key>
+	<array>
+		<string>InsertDocFromJsonString</string>
+		<string>InsertDocFromDictionary</string>
+		<string>FindAllDocs</string>
+		<string>FindAllDocsByPaging</string>
+		<string>FindAllDocsCount</string>
+		<string>FindAllCollections</string>
+		<string>FindDocumentById</string>
+		<string>FindDocumentByKeyValue</string>
+		<string>FindDocumentByQuery</string>
+		<string>FindDocumentsByQueryWithPaging</string>
+		<string>FindDocsWithQueryPagingOrderBy</string>
+		<string>UpdateDocumentByIdFromJsonString</string>
+		<string>UpdateDocumentByIdFromDictionary</string>
+		<string>UpdateDocumentByKeyValueFromJsonString</string>
+		<string>UpdateDocumentByKeyValueFromDictionary</string>
+		<string>UpdateDocumentByQueryFromJsonString</string>
+		<string>UpdateDocumentByQueryFromDictionary</string>
+		<string>SaveOrUpdateDocumentByKeyValueFromJsonString</string>
+		<string>SaveOrUpdateDocumentByKeyValueFromDictionary</string>
+		<string>DeleteAllDocuments</string>
+		<string>DeleteDocumentById</string>
+		<string>DeleteDocumentsByKeyValue</string>
+		<string>AddOrUpdateKeys</string>
+		<string>GrantAccess</string>
+		<string>RevokeAccess</string>
+		<string>InsertJsonDocUsingMap</string>
+		<string>MapReduce</string>
+		<string>InsertDocFromDataDictWithAtachment</string>
+		<string>InsertJSONDocumentWithAttachment</string>
+		<string>AddAttachmentToDocs</string>
+	</array>
+	<key>Upload Service</key>
+	<array>
+		<string>UploadFileFromPath</string>
+		<string>UploadFileWithData</string>
+		<string>UploadFileForUserFromPath</string>
+		<string>uploadFileForUserWithData</string>
+		<string>GetAllFilesCount</string>
+		<string>GetAllFiles</string>
+		<string>GetAllFilesByPaging</string>
+		<string>GetFileByUser</string>
+		<string>GetAllFilesCountByUser</string>
+		<string>GetAllFilesByUser</string>
+		<string>GetAllFilesByUserByPaging</string>
+		<string>GetFileByName</string>
+		<string>RemoveFileByUser</string>
+		<string>RemoveAllFilesByUser</string>
+		<string>RemoveAllFiles</string>
+		<string>GetFilesCountByType</string>
+		<string>GetFilesByType</string>
+		<string>GetFilesByTypeByPaging</string>
+		<string>GrantAccessOnFile</string>
+		<string>RevokeAccessOnFile</string>
+		<string>UploadFileForGroupFromPath</string>
+		<string>UploadFileForGroupWithData</string>
+	</array>
+	<key>Avatar Service</key>
+	<array>
+		<string>CreateAvatarWithName</string>
+		<string>CreateAvatarFromFacebookWithName</string>
+		<string>CreateAvatarFromFileDataWithName</string>
+		<string>CreateAvatarFromWebURLWithName</string>
+		<string>GetAvatarByName</string>
+		<string>GetAllAvatarsForUser</string>
+		<string>GetCurrentAvatar</string>
+		<string>ChangeCurrentAvatarWithName</string>
+	</array>
+	<key>Buddy Service</key>
+	<array>
+		<string>SendFriendRequestFromUser</string>
+		<string>GetFriendRequest</string>
+		<string>AcceptFriendRequestFromBuddy</string>
+		<string>RejectFriendRequestFromBuddy</string>
+		<string>CreateGroup</string>
+		<string>GetAllFriends</string>
+		<string>AddFriends</string>
+		<string>CheckedInWithUser</string>
+		<string>GetFriendsOfUser</string>
+		<string>GetAllGroups</string>
+		<string>GetAllFriendsOfUser</string>
+		<string>BlockFriendRequestFromBuddy</string>
+		<string>BlockBuddy</string>
+		<string>UnblockBuddy</string>
+		<string>SendMessageToGroup</string>
+		<string>SendMessageToFriend</string>
+		<string>SendMessageToFriends</string>
+		<string>GetAllMessages</string>
+		<string>GetAllMessagesFromBuddy</string>
+		<string>GetAllMessagesFromGroup</string>
+		<string>UnFriend</string>
+		<string>DeleteMessageById</string>
+		<string>DeleteMessageByIds</string>
+	</array>
+	<key>Timer Service</key>
+	<array>
+		<string>CreateOrUpdateTimerWithName</string>
+		<string>StartTimerWithName</string>
+		<string>IsTimerActive</string>
+		<string>CancelTimerWithName</string>
+		<string>DeleteTimerWithName</string>
+		<string>GetCurrentTime</string>
+	</array>
+	<key>Gift Service</key>
+	<array/>
+	<key>Achievement Service</key>
+	<array>
+		<string>CreateAchievementWithName</string>
+		<string>EarnAchievementWithName</string>
+		<string>GetAllAchievementsForUser</string>
+		<string>GetAllAchievementsForUserInAGame</string>
+		<string>GetAllAchievements</string>
+		<string>GetAchievementByName</string>
+		<string>GetAllUsersWithAchievement</string>
+	</array>
+	<key>Social Service</key>
+	<array>
+		<string>LinkUserFacebookAccount</string>
+		<string>LinkUserFacebookAccountWithAppID</string>
+		<string>UpdateFacebookStatus</string>
+		<string>LinkUserTwitterAccount</string>
+		<string>LinkUserTwitterAccountWithConsumerKey</string>
+		<string>UpdateTwitterStatus</string>
+		<string>LinkUserLinkedInAccount</string>
+		<string>LinkUserLinkedInAccountApiKey</string>
+		<string>UpdateLinkedInStatus</string>
+		<string>UpdateSocialStatusForAll</string>
+		<string>GetFacebookFriendsFromLinkUser</string>
+		<string>GetFacebookFriendsFromAccessToken</string>
+		<string>FacebookPublishStream</string>
+		<string>FacebookLinkPost</string>
+		<string>FacebookLinkPostWithCustomThumbnail</string>
+		<string>GetFacebookProfile</string>
+		<string>GetFacebookProfilesFromIds</string>
+	</array>
+	<key>Album Service</key>
+	<array>
+		<string>CreateAlbum</string>
+		<string>GetAlbumsCount</string>
+		<string>GetAlbums</string>
+		<string>GetAlbumsByPaging</string>
+		<string>GetAlbumByName</string>
+		<string>RemoveAlbum</string>
+	</array>
+	<key>Photo Service</key>
+	<array>
+		<string>AddPhotoFromPath</string>
+		<string>AddPhotoWithData</string>
+		<string>AddTagToPhoto</string>
+		<string>GetPhotos</string>
+		<string>GetTaggedPhotos</string>
+		<string>GetPhotosCountByAlbumName</string>
+		<string>GetPhotosByAlbumName</string>
+		<string>GetPhotosByAlbumNameByPaging</string>
+		<string>GetPhotosByAlbumAndPhotoName</string>
+		<string>RemovePhoto</string>
+		<string>GrantAccessToPhoto</string>
+		<string>RevokeAccessToPhoto</string>
+		<string>UpdatePhoto</string>
+	</array>
+	<key>Review Service</key>
+	<array>
+		<string>Create Review</string>
+		<string>Get All Reviews</string>
+		<string>Get All Reviews Count</string>
+		<string>Get All Reviews Paging</string>
+		<string>Get All Reviews By User</string>
+		<string>Get Review By Item</string>
+		<string>Get Review Count By Item</string>
+		<string>Get Reviews By Item Paging</string>
+		<string>Get Highest Reviews By Item</string>
+		<string>Get Average Reviews By Item</string>
+		<string>Get Lowest Reviews By Item</string>
+		<string>Get Reviews Count By Item &amp; Rating</string>
+		<string>Add Comment</string>
+		<string>Get Comment By Item</string>
+		<string>Mute</string>
+		<string>Unmute</string>
+		<string>Delete Review By Item</string>
+		<string>Delete Comment By Item Id</string>
+	</array>
+	<key>Email Service</key>
+	<array>
+		<string>Create Email Configuration</string>
+		<string>Get Email Configuration</string>
+		<string>Send Email</string>
+		<string>Remove Email Configuration</string>
+	</array>
+	<key>Event Service</key>
+	<array>
+		<string>TrackEventWithName</string>
+		<string>StartActivityWithName</string>
+		<string>EndActivityWithName</string>
+		<string>SetLoggedInUserProperties</string>
+		<string>UpdateLoggedInUserProperties</string>
+	</array>
+	<key>Session Service</key>
+	<array>
+		<string>GetSession</string>
+		<string>GetOrCreateSession</string>
+		<string>Invalidate</string>
+		<string>SetAttribute</string>
+		<string>GetAttribute</string>
+		<string>GetAllAttributes</string>
+		<string>RemoveAttribute</string>
+		<string>RemoveAllAttributes</string>
+	</array>
+	<key>Recommend Service</key>
+	<array>
+		<string>LoadPreferenceFile</string>
+		<string>LoadPreferenceFileWithData</string>
+		<string>AddOrUpdatePreference</string>
+		<string>UserBasedNeighborhood</string>
+		<string>UserBasedThreshold</string>
+		<string>UserBasedNeighborhoodBySimilarity</string>
+		<string>UserBasedThresholdBySimilarity</string>
+		<string>ItemBased</string>
+		<string>SlopeOne</string>
+		<string>UserBasedThresholdForAll</string>
+		<string>UserBasedNeighborhoodBySimilarityForAll</string>
+		<string>UserBasedThresholdBySimilarityForAll</string>
+		<string>ItemBasedForAll</string>
+		<string>ItemBasedBySimilarityForAll</string>
+		<string>SlopeOneForAll</string>
+		<string>ItemBasedBySimilarity</string>
+		<string>UserBasedNeighborhoodForAll</string>
+		<string>DeleteAllPreferences</string>
+	</array>
+	<key>Log Service</key>
+	<array>
+		<string>Info</string>
+		<string>debug</string>
+		<string>fatal</string>
+		<string>error</string>
+		<string>fetchLogsCountByModule</string>
+		<string>fetchLogsByModule</string>
+		<string>fetchLogsByModuleAndText</string>
+		<string>fetchLogsCountByInfo</string>
+		<string>fetchLogsCountByDebug</string>
+		<string>fetchLogsCountByError</string>
+		<string>fetchLogsCountByFatal</string>
+		<string>fetchLogsByInfo</string>
+		<string>fetchLogsByDebug</string>
+		<string>fetchLogsByError</string>
+		<string>fetchLogsByDebug</string>
+		<string>fetchLogsByError</string>
+		<string>fetchLogsByFatal</string>
+	</array>
+	<key>Message Service</key>
+	<array>
+		<string>CreatePullQueue</string>
+		<string>DeletePullQueue</string>
+		<string>PurgePullQueue</string>
+		<string>PendingMessages</string>
+		<string>GetMessages</string>
+		<string>SendMessage</string>
+		<string>ReceiveMessage</string>
+		<string>ReceiveMessageByCorrelationId</string>
+		<string>RemoveMessage</string>
+	</array>
+	<key>Scoreboard Service</key>
+	<array>
+		<string>SaveUserScore</string>
+		<string>GetScoresByUser</string>
+		<string>GetHighestScoreByUser</string>
+		<string>GetLowestScoreByUser</string>
+		<string>GetTopRankings</string>
+		<string>GetAverageScoreByUser</string>
+		<string>GetTopNRankings</string>
+		<string>GetTopRankersByGroup</string>
+		<string>GetTopRankingsByGroup</string>
+		<string>GetTopRankingsInDateRange</string>
+		<string>GetTopNRankersInDateRange</string>
+		<string>GetLastGameScore</string>
+		<string>GetUserRanking</string>
+		<string>GetLastScoreByUser</string>
+		<string>EditScoreValueById</string>
+		<string>GetTopRankersFromBuddyGroup</string>
+		<string>GetTopNRankersFromFacebook</string>
+		<string>GetTopNRankersFromFacebookInDateRange</string>
+		<string>GetTopNTargetRankers</string>
+		<string>GetUsersWithScoreRange</string>
+		<string>GetTopNRankers</string>
+	</array>
+	<key>Game Service</key>
+	<array>
+		<string>CreateGame</string>
+		<string>GetAllGamesCount</string>
+		<string>GetAllGames</string>
+		<string>GetAllGamesByPaging</string>
+		<string>GetGameByName</string>
+	</array>
+	<key>Score Service</key>
+	<array>
+		<string>AddScore</string>
+		<string>DeductScore</string>
+	</array>
+	<key>A/B Test Service</key>
+	<array>
+		<string>GoalAchievedForTest</string>
+		<string>Execute</string>
+		<string>ExecuteDataDriven</string>
+		<string>IsActive</string>
+	</array>
+	<key>Catalogue Service</key>
+	<array>
+		<string>CreateCatalogue</string>
+		<string>CreateCategory</string>
+		<string>AddItem</string>
+		<string>GetItems</string>
+		<string>GetItemsByCategory</string>
+		<string>GetItemsCountByCategory</string>
+		<string>GetItemsByCategoryByPaging</string>
+		<string>GetItemById</string>
+		<string>RemoveAllItems</string>
+		<string>RemoveItemsByCategory</string>
+		<string>RemoveItemById</string>
+	</array>
+	<key>Cart Service</key>
+	<array>
+		<string>CreateCart</string>
+		<string>GetCartDetails</string>
+		<string>AddItem</string>
+		<string>GetItems</string>
+		<string>GetItem</string>
+		<string>RemoveItem</string>
+		<string>RemoveAllItems</string>
+		<string>IsEmpty</string>
+		<string>CheckOut</string>
+		<string>Payment</string>
+		<string>GetPaymentsByUser</string>
+		<string>GetPaymentByCart</string>
+		<string>GetPaymentsByUserAndStatus</string>
+		<string>GetPaymentsByStatus</string>
+		<string>GetPaymentHistoryByUser</string>
+		<string>GetPaymentHistoryAll</string>
+		<string>IncreaseQuantity</string>
+		<string>DecreaseQuantity</string>
+	</array>
+</dict>
+</plist>
