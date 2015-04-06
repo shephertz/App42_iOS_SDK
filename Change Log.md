@@ -19,6 +19,47 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
 
+## Version 3.4
+
+
+**Release Date:** 06-04-2015
+
+**Release Version:** 3.4
+
+**Feature :** 
+
+```
+Uninstall tracking
+```
+
+**This release contains the following bug fix:**
+```
+None
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
+
+## Version 3.3
+
+
+**Release Date:** 20-01-2015
+
+**Release Version:** 3.3
+
+**Feature :** 
+
+```
+App42 iOS AsyncAPI now supports InApp Messaging
+```
+
+**This release contains the following bug fix:**
+```
+Bug Fix: fetchLogsCountByModuleAndText in LogService
+Bug Fix: getPaymentsByStatus in CartService
+Bug Fix: exception handling issue in User Service
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
+
+
 ## Version 3.2
  
 
