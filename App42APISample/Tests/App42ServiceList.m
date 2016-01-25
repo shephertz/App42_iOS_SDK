@@ -33,6 +33,7 @@
 #import "TimerServiceAPIList.h"
 #import "CatalogueServiceAPIList.h"
 #import "CartServiceAPIList.h"
+#import "GeoServiceAPIList.h"
 
 @interface App42ServiceList ()
 {
@@ -63,7 +64,7 @@
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.title = @"App42 Services";
     serviceList = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"App42Services" ofType:@"plist"]];
     servicesCount = (int)[serviceList count];
@@ -302,13 +303,18 @@
         serviceAPIList.apiList = [serviceList objectForKey:cell.textLabel.text];
         [self.navigationController pushViewController:serviceAPIList animated:YES];
     }
+    else if ([cell.textLabel.text isEqualToString:@"Geo Service"])
+    {
+        GeoServiceAPIList *serviceAPIList = [[GeoServiceAPIList alloc] initWithStyle:UITableViewStylePlain];
+        //NSLog(@"%@",[serviceList objectForKey:cell.textLabel.text]);
+        serviceAPIList.apiList = [serviceList objectForKey:cell.textLabel.text];
+        [self.navigationController pushViewController:serviceAPIList animated:YES];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 30;
 }
-
-
 
 @end

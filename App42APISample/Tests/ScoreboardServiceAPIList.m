@@ -43,7 +43,7 @@
     [App42API setOfflineStorage:YES];
     scoreboardService = [App42API buildScoreBoardService];
     
-    gameName = @"Game1";
+    gameName = @"Words Junkie5";
     userName = @"Shephertz1";
     max = 5;
     offset = 0;
@@ -839,9 +839,11 @@
         }
     }];
 }
+
 -(void)getTopNRankersFromFacebook
 {
-    NSString *fbAccessToken = @"";
+    NSString *fbAccessToken = @"CAADBZBGAg6a4BAJnbyabI7Nzhcf7nqLvVDikGX7BMExlCwvBZBPzYP7MUKphP6BhqCrIXLWOeGWwOLTCt7hOeFqivZB935Qsa0csXYqj5kOpLujhpO59XsHR0dXKl8h5UiBb0B5ZCaeOozgLQXnCzZC0HSsyZCP4O3DYAYBxTnyvIlK0Ix1CWeljEA58DLKoK04DKRgWV1HfmGL3f68ZAzr";
+    
     [scoreboardService getTopNRankersFromFacebook:gameName fbAccessToken:fbAccessToken max:max completionBlock:^(BOOL success, id responseObj, App42Exception *exception) {
         if (success)
         {
@@ -877,6 +879,7 @@
         }
     }];
 }
+
 -(void)getTopNRankersFromFacebookInDateRange
 {
     NSString *fbAccessToken = @"";

@@ -416,5 +416,9 @@
 		<string>IncreaseQuantity</string>
 		<string>DecreaseQuantity</string>
 	</array>
+	<key>Geo Service</key>
+	<array>
+		<string>CreateGeoPoints</string>
+	</array>
 </dict>
 </plist>

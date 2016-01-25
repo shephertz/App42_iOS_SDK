@@ -10,8 +10,8 @@
 #import "App42ServiceList.h"
 #import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>
 
-#define APP_Key     @"67359321652c10b15fd5f659d096a2051745aa4f339b936d6ce5dccb165de863"
-#define SECRET_Key  @"2d44878dd428046f23bd4b3807ce83e982db9900f4c5a8305255da4764c76610"
+#define APP_Key     @"f6639d08784d985848e394f1cd859e980d946d283232d923b4022d7491e86591"
+#define SECRET_Key  @"9485eff71c5a24856bb581692b6f26521cb1002ec36ccc80720df34fc1bc7b6c"
 
 
 @interface AppDelegate ()
@@ -20,6 +20,8 @@
 }
 @end
 
+
+
 @implementation AppDelegate
 
 
@@ -27,8 +29,8 @@
     
     [App42API initializeWithAPIKey:APP_Key andSecretKey:SECRET_Key];
     [App42API enableApp42Trace:YES];
-    [App42API enableEventService:YES];
-    [App42API enableAppAliveTracking:YES];
+   // [App42API enableEventService:YES];
+   // [App42API enableAppAliveTracking:YES];
     
     deviceToken = nil;
     

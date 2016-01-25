@@ -47,6 +47,7 @@
 		5D1B58841AC1920A0009276D /* App42ServiceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B58811AC1920A0009276D /* App42ServiceList.m */; };
 		5D1B58851AC1920A0009276D /* UserServiceAPIList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B58831AC1920A0009276D /* UserServiceAPIList.m */; };
 		5D1B58871AC192260009276D /* App42Services.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D1B58861AC192260009276D /* App42Services.plist */; };
+		5D9B23971AF0CD7300E7E565 /* GeoServiceAPIList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B23961AF0CD7300E7E565 /* GeoServiceAPIList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,8 @@
 		5D1B58821AC1920A0009276D /* UserServiceAPIList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserServiceAPIList.h; sourceTree = "<group>"; };
 		5D1B58831AC1920A0009276D /* UserServiceAPIList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserServiceAPIList.m; sourceTree = "<group>"; };
 		5D1B58861AC192260009276D /* App42Services.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = App42Services.plist; sourceTree = "<group>"; };
+		5D9B23951AF0CD7300E7E565 /* GeoServiceAPIList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoServiceAPIList.h; sourceTree = "<group>"; };
+		5D9B23961AF0CD7300E7E565 /* GeoServiceAPIList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoServiceAPIList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +284,8 @@
 				5D1B58591AC18EBD0009276D /* TimerServiceAPIList.m */,
 				5D1B585A1AC18EBD0009276D /* UploadServiceAPIList.h */,
 				5D1B585B1AC18EBD0009276D /* UploadServiceAPIList.m */,
+				5D9B23951AF0CD7300E7E565 /* GeoServiceAPIList.h */,
+				5D9B23961AF0CD7300E7E565 /* GeoServiceAPIList.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				5D1B58841AC1920A0009276D /* App42ServiceList.m in Sources */,
 				5D1B58661AC18EBD0009276D /* GiftServiceAPIList.m in Sources */,
 				5D1B58631AC18EBD0009276D /* EmailServiceAPIList.m in Sources */,
+				5D9B23971AF0CD7300E7E565 /* GeoServiceAPIList.m in Sources */,
 				5D1B58091AC18E8E0009276D /* AppDelegate.m in Sources */,
 				5D1B58641AC18EBD0009276D /* EventServiceAPIList.m in Sources */,
 				5D1B58671AC18EBD0009276D /* LoggingServiceAPIList.m in Sources */,
@@ -618,6 +624,7 @@
 				5D1B58251AC18E8E0009276D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D1B58261AC18E8E0009276D /* Build configuration list for PBXNativeTarget "App42APISampleTests" */ = {
 			isa = XCConfigurationList;
@@ -626,6 +633,7 @@
 				5D1B58281AC18E8E0009276D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

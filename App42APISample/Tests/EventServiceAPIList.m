@@ -34,7 +34,7 @@
    // [App42API enableAppStateEventTracking:YES];
    // [App42API enableEventService:YES];
    // [App42API setOfflineStorage:YES];
-    eventService = [App42API buildEventService];
+    EventService *eventService = [App42API buildEventService];
 }
 
 - (void)didReceiveMemoryWarning {

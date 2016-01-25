@@ -810,9 +810,10 @@
     //NSString *pwd = @"*********";
     NSString *userName = @"Shephertz";
     NSString *password = @"123456";
-    NSMutableDictionary *otherMetaHeaders = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"true",@"userProfile", nil];
-    [userService setOtherMetaHeaders:otherMetaHeaders];
-    [userService authenticateUser:userName password:password completionBlock:^(BOOL success, id responseObj, App42Exception *exception) {
+    UserService *userService1 = [App42API buildUserService];
+    //NSMutableDictionary *otherMetaHeaders = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"true",@"userProfile", nil];
+    //[userService setOtherMetaHeaders:otherMetaHeaders];
+    [userService1 authenticateUser:userName password:password completionBlock:^(BOOL success, id responseObj, App42Exception *exception) {
         if (success)
         {
             User *user = (User*)responseObj;
