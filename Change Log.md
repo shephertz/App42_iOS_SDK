@@ -1,3 +1,5 @@
+* [Release Version 3.5.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-351)
+* [Release Version 3.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-35)
 * [Release Version 3.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-34)
 * [Release Version 3.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-33)
 * [Release Version 3.2](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-32)
@@ -20,6 +22,45 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
+
+## Version 3.5.1
+
+
+**Release Date:** 25-01-2016
+
+**Release Version:** 3.5.1
+
+**Feature :** 
+
+```
+None
+```
+
+**This release contains the following bug fix:**
+```
+Fix: Time Stamp issue with Async APIs SDK for Hindi langauage
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
+
+
+## Version 3.5
+
+
+**Release Date:** 05-01-2016
+
+**Release Version:** 3.5
+
+**Feature :** 
+
+```
+App42 iOS Campaign API now supports Virality
+```
+
+**This release contains the following bug fix:**
+```
+None
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
 
 ## Version 3.4
 
