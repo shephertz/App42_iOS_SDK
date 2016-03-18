@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vca-Gc-FpQ">
+                                <rect key="frame" x="287" y="28" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Event Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cyh-cu-WNb">
+                                <rect key="frame" x="187" y="28" width="227" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="227" id="Fg7-QR-rR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhI-8T-naB">
+                                <rect key="frame" x="259" y="74" width="81" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7zq-rV-8QM"/>
+                                    <constraint firstAttribute="width" constant="81" id="9G3-He-TdQ"/>
+                                </constraints>
+                                <state key="normal" title="Track Event"/>
+                                <connections>
+                                    <action selector="trackEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8R-LA-fs4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YE-eV-vgg">
+                                <rect key="frame" x="239" y="121" width="122" height="30"/>
+                                <state key="normal" title="Is Virality Enabled"/>
+                                <connections>
+                                    <action selector="isViralityEnabled:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIb-G2-W4U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teO-Cn-fbX">
+                                <rect key="frame" x="282" y="550" width="37" height="30"/>
+                                <state key="normal" title="Invite"/>
+                                <connections>
+                                    <action selector="inviteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qog-Zx-Ngg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEP-CU-dnr">
+                                <rect key="frame" x="258" y="159" width="84" height="30"/>
+                                <state key="normal" title="GetRewards"/>
+                                <connections>
+                                    <action selector="getRewards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64w-nL-8HI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJj-9y-hML">
+                                <rect key="frame" x="243" y="203" width="115" height="30"/>
+                                <state key="normal" title="RedeemRewards"/>
+                                <connections>
+                                    <action selector="redeemRewards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZaT-qN-Ups"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iJj-9y-hML" firstAttribute="top" secondItem="ZEP-CU-dnr" secondAttribute="bottom" constant="14" id="39L-Az-kxN"/>
+                            <constraint firstItem="uhI-8T-naB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="71K-bz-4eO"/>
+                            <constraint firstItem="7YE-eV-vgg" firstAttribute="top" secondItem="uhI-8T-naB" secondAttribute="bottom" constant="17" id="HKl-ny-fGI"/>
+                            <constraint firstItem="vca-Gc-FpQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HyK-Lh-sPs"/>
+                            <constraint firstItem="ZEP-CU-dnr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KKj-ud-83p"/>
+                            <constraint firstItem="iJj-9y-hML" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Scu-3S-YqM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="teO-Cn-fbX" secondAttribute="bottom" constant="20" id="Vbw-CY-Qmm"/>
+                            <constraint firstItem="Cyh-cu-WNb" firstAttribute="baseline" secondItem="vca-Gc-FpQ" secondAttribute="baseline" id="ahN-R7-bTt"/>
+                            <constraint firstItem="7YE-eV-vgg" firstAttribute="centerX" secondItem="ZEP-CU-dnr" secondAttribute="centerX" id="brM-xt-4Wa"/>
+                            <constraint firstItem="teO-Cn-fbX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="imW-Ub-o22"/>
+                            <constraint firstItem="vca-Gc-FpQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jYE-j5-4td"/>
+                            <constraint firstItem="Cyh-cu-WNb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qWk-QJ-Ygc"/>
+                            <constraint firstItem="uhI-8T-naB" firstAttribute="top" secondItem="Cyh-cu-WNb" secondAttribute="bottom" constant="16" id="t7j-aP-8wO"/>
+                            <constraint firstItem="ZEP-CU-dnr" firstAttribute="top" secondItem="7YE-eV-vgg" secondAttribute="bottom" constant="8" id="wdO-L1-JBY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eventNameField" destination="Cyh-cu-WNb" id="hW8-oD-O2Z"/>
+                        <outlet property="inviteButton" destination="teO-Cn-fbX" id="8LO-3c-BoE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="337"/>
+        </scene>
+    </scenes>
+</document>
