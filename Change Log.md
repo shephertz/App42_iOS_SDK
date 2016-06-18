@@ -1,3 +1,4 @@
+* [Release Version 3.5.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-355)
 * [Release Version 3.5.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-354)
 * [Release Version 3.5.1](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-351)
 * [Release Version 3.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-35)
@@ -22,6 +23,25 @@
 * [Release Version 1.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
+
+
+## Version 3.5.5
+
+**Release Date:** 18-06-2016
+
+**Release Version:** 3.5.5
+
+**Feature :** 
+
+```
+None
+```
+
+**This release contains the following bug fix:**
+```
+Fix: Fixed App42CacheManager crash issue
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
 
 
 ## Version 3.5.4
