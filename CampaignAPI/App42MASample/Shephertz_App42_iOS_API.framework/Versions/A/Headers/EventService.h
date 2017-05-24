@@ -34,5 +34,5 @@
 -(void)endActivityWithName:(NSString*)eventName andProperties:(NSDictionary*)properties completionBlock:(App42ResponseBlock)completionBlock;
 -(void)setLoggedInUserProperties:(NSDictionary*)properties completionBlock:(App42ResponseBlock)completionBlock;
 -(void)updateLoggedInUserProperties:(NSDictionary*)properties completionBlock:(App42ResponseBlock)completionBlock;
-
+-(void)sendGeoFencingPush:(NSDictionary*)userProps geoProps:(NSDictionary*)geoProps completionBlock:(App42ResponseBlock)completionBlock;
 @end

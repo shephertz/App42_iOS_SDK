@@ -6,16 +6,16 @@
 //  Copyright (c) 2012 ShephertzTechnology PVT LTD. All rights reserved.
 //
 
-#import <Shephertz_App42_iOS_API/UserService.h>
+/*#import <Shephertz_App42_iOS_API/UserService.h>
 #import <Shephertz_App42_iOS_API/User.h>
 #import <Shephertz_App42_iOS_API/Profile.h>
-#import <Shephertz_App42_iOS_API/SocialService.h>
+#import <Shephertz_App42_iOS_API/SocialService.h>*/
 #import <Shephertz_App42_iOS_API/PublicProfile.h>
 #import <Shephertz_App42_iOS_API/Friends.h>
 
 #import <Shephertz_App42_iOS_API/App42API.h>
 #import <Shephertz_App42_iOS_API/Utils.h>
-#import <Shephertz_App42_iOS_API/CustomCodeService.h>
+//#import <Shephertz_App42_iOS_API/CustomCodeService.h>
 #import <Shephertz_App42_iOS_API/App42File.h>
 #import <Shephertz_App42_iOS_API/MetaResponse.h>
 
@@ -25,7 +25,7 @@
 #import <Shephertz_App42_iOS_API/Channel.h>
 
 
-#import <Shephertz_App42_iOS_API/SessionService.h>
+/*#import <Shephertz_App42_iOS_API/SessionService.h>
 #import <Shephertz_App42_iOS_API/Session.h>
 #import <Shephertz_App42_iOS_API/Attribute.h>
 
@@ -51,7 +51,7 @@
 #import <Shephertz_App42_iOS_API/RecommendedItem.h>
 #import <Shephertz_App42_iOS_API/PreferenceData.h>
 
-#import <Shephertz_App42_iOS_API/ACL.h>
+
 
 #import <Shephertz_App42_iOS_API/Cart.h>
 #import <Shephertz_App42_iOS_API/Catalogue.h>
@@ -68,11 +68,12 @@
 
 #import <Shephertz_App42_iOS_API/StorageService.h>
 #import <Shephertz_App42_iOS_API/JSONDocument.h>
-#import <Shephertz_App42_iOS_API/Storage.h>
+#import <Shephertz_App42_iOS_API/Storage.h>*/
+#import <Shephertz_App42_iOS_API/ACL.h>
 #import "Query.h"
 #import "QueryBuilder.h"
 #import "GeoQuery.h"
-#import <Shephertz_App42_iOS_API/Buddy.h>
+/*#import <Shephertz_App42_iOS_API/Buddy.h>
 #import <Shephertz_App42_iOS_API/BuddyService.h>
 
 
@@ -111,7 +112,7 @@
 #import <Shephertz_App42_iOS_API/AchievementService.h>
 
 #import <Shephertz_App42_iOS_API/Image.h>
-#import <Shephertz_App42_iOS_API/ImageProcessorService.h>
+#import <Shephertz_App42_iOS_API/ImageProcessorService.h>*/
 
 #import <Shephertz_App42_iOS_API/App42Response.h>
 #import <Shephertz_App42_iOS_API/App42Exception.h>
@@ -126,16 +127,18 @@
 #import <Shephertz_App42_iOS_API/SBJSON.h>
 #import <Shephertz_App42_iOS_API/SBJSONParser.h>
 
-#import <Shephertz_App42_iOS_API/Gift.h>
+/*#import <Shephertz_App42_iOS_API/Gift.h>
 #import <Shephertz_App42_iOS_API/Request.h>
 #import <Shephertz_App42_iOS_API/GiftService.h>
 
 #import <Shephertz_App42_iOS_API/Timer.h>
-#import <Shephertz_App42_iOS_API/TimerService.h>
+#import <Shephertz_App42_iOS_API/TimerService.h>*/
 
 #import <Shephertz_App42_iOS_API/EventService.h>
 
 #import <Shephertz_App42_iOS_API/App42CacheManager.h>
 #import <Shephertz_App42_iOS_API/RewardsPoint.h>
+#import <Shephertz_App42_iOS_API/UserCampaigns.h>
+#import <Shephertz_App42_iOS_API/Campaign.h>
 
 

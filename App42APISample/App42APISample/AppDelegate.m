@@ -10,8 +10,8 @@
 #import "App42ServiceList.h"
 #import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>
 
-#define APP_Key     @"f6639d08784d985848e394f1cd859e980d946d283232d923b4022d7491e86591"
-#define SECRET_Key  @"9485eff71c5a24856bb581692b6f26521cb1002ec36ccc80720df34fc1bc7b6c"
+#define APP_Key     @"b7915f2fca1fb7f53f4f519d6d79dae11b7c948ccc5511ef5ad9d19eceb6376f"
+#define SECRET_Key  @"f5f1d84b849d459ef3217ef12ffd2931474379783402711c23908b464629ecdf"
 
 
 @interface AppDelegate ()
@@ -29,8 +29,9 @@
     
     [App42API initializeWithAPIKey:APP_Key andSecretKey:SECRET_Key];
     [App42API enableApp42Trace:YES];
-   // [App42API enableEventService:YES];
-   // [App42API enableAppAliveTracking:YES];
+    [App42API enableEventService:YES];
+    [App42API enableAppAliveTracking:YES];
+    [App42API enableAppStateEventTracking:YES];
     
     deviceToken = nil;
     
@@ -42,7 +43,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
     
     // Let the device know we want to receive push notifications
     // Register for Push Notitications, if running on iOS 8

@@ -756,7 +756,7 @@
         {
             User *user = (User*)responseObj;
             NSLog(@"UserName=%@",user.userName);
-            NSLog(@"isAccountLocked = %d",user.isAccountLocked);
+            NSLog(@"isAccountLocked = %d",user.accountLocked);
             NSLog(@"Email=%@",user.email);
             NSLog(@"RollList=%@",user.roleList);
             NSLog(@"Response=%@",[user toString]);
@@ -783,7 +783,7 @@
         {
             User *user = (User*)responseObj;
             NSLog(@"UserName=%@",user.userName);
-            NSLog(@"isAccountLocked = %d",user.isAccountLocked);
+            NSLog(@"isAccountLocked = %d",user.accountLocked);
             NSLog(@"Email=%@",user.email);
             NSLog(@"RollList=%@",user.roleList);
             NSLog(@"Response=%@",[user toString]);
@@ -818,7 +818,7 @@
         {
             User *user = (User*)responseObj;
             NSLog(@"UserName=%@",user.userName);
-            NSLog(@"isAccountLocked = %d",user.isAccountLocked);
+            NSLog(@"isAccountLocked = %d",user.accountLocked);
             NSLog(@"Email=%@",user.email);
             NSLog(@"RollList=%@",user.roleList);
             NSLog(@"Response=%@",[user toString]);
@@ -1048,7 +1048,7 @@
         {
             User *user = (User*)responseObj;
             NSLog(@"UserName=%@",user.userName);
-            NSLog(@"isAccountLocked = %d",user.isAccountLocked);
+            NSLog(@"isAccountLocked = %d",user.accountLocked);
             NSLog(@"Email=%@",user.email);
             NSLog(@"RollList=%@",user.roleList);
             NSLog(@"Response=%@",[user toString]);

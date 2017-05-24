@@ -86,10 +86,17 @@
  */
 +(NSString*)getActiveViralityCampaign;
 
+
 /***
  * Gets a list of active campaign
  * @return: Array of campaign names
  */
 +(NSArray*)getAllActiveViralityCampaigns;
+
+/***
+ * Gets a list of available campaign fro a user
+ * @return:
+ */
++(void)getCampaignsForUser:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
 
 @end

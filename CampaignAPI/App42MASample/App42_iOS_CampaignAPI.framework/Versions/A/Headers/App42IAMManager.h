@@ -38,5 +38,6 @@
 -(void)redeemRewardForUser:(NSString *)userName rewardPoint:(float)rewardPoint inUnit:(NSString *)rewardUnit completionBlock:(App42ResponseBlock)l_completionBlock;
 -(void)getRewardOfUser:(NSString*)userName forCampaign:(NSString*)campName completionBlock:(App42ResponseBlock)l_completionBlock;
 -(void)redeemRewardForUser:(NSString*)userName rewardPoint:(float)rewardPoint inUnit:(NSString*)rewardUnit forCampaign:(NSString*)campName completionBlock:(App42ResponseBlock)l_completionBlock;
+-(void)getCampaignsForUser:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
 
 @end

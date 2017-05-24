@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "App42File.h"
 
-@class Storage;
+//@class Storage;
 @class GeoTag;
 /**
  * An inner class that contains the remaining properties of the Storage.
@@ -22,7 +22,7 @@
     NSString *jsonDoc;
     NSString *docId;
     NSString *owner;
-    Storage *storageObject;
+    //Storage *storageObject;
     NSMutableArray *aclList;
 }
 /*!
@@ -61,7 +61,7 @@
 /*!
  *set and get the storageObject for JSONDocument Object.
  */
-@property(nonatomic,retain)Storage *storageObject;
+//@property(nonatomic,retain)Storage *storageObject;
 
 /*!
  *set and get the GeoTag for JSONDocument Object.
@@ -76,6 +76,6 @@
 
 //- (id) init __attribute__((unavailable));
 
--(id)initWithStorage:(Storage*)storageObj;
+//-(id)initWithStorage:(Storage*)storageObj;
 
 @end
