@@ -41,6 +41,60 @@
 -(void)createGiftWithName:(NSString*)giftName giftIconPath:(NSString*)giftIconPath displayName:(NSString*)displayName giftTag:(NSString*)tag description:(NSString*)description completionBlock:(App42ResponseBlock)completionBlock;
 
 /**
+ * Create a gift.
+ *
+ * @param giftName
+ *            - Name of gift to be created.
+ * @param giftIconData
+ *            - Image data of the gift icon
+ * @param displayName
+ *            - An alternate name of the gift that can be used to display
+ * @param tag
+ *            - tag for the Gift
+ * @param description
+ *            - Description of the Gift to be created
+ * @return Gift Object
+ * @throws App42Exception
+ */
+-(void)createGiftWithName:(NSString*)giftName giftIconData:(NSData*)giftIconData displayName:(NSString*)displayName giftTag:(NSString*)tag description:(NSString*)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Edit an existing gift.
+ *
+ * @param giftName
+ *            - Name of gift to be created.
+ * @param giftIconPath
+ *            - path of the gift icon
+ * @param displayName
+ *            - An alternate name of the gift that can be used to display
+ * @param tag
+ *            - tag for the Gift
+ * @param description
+ *            - Description of the Gift to be created
+ * @return Gift Object
+ * @throws App42Exception
+ */
+-(void)editGiftWithName:(NSString*)giftName giftIconPath:(NSString*)giftIconPath displayName:(NSString*)displayName giftTag:(NSString*)tag description:(NSString*)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Edit an existing gift.
+ *
+ * @param giftName
+ *            - Name of gift to be created.
+ * @param giftIconData
+ *            - Image data of the gift icon
+ * @param displayName
+ *            - An alternate name of the gift that can be used to display
+ * @param tag
+ *            - tag for the Gift
+ * @param description
+ *            - Description of the Gift to be created
+ * @return Gift Object
+ * @throws App42Exception
+ */
+-(void)editGiftWithName:(NSString*)giftName giftIconData:(NSData*)giftIconData displayName:(NSString*)displayName giftTag:(NSString*)tag description:(NSString*)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
  * Get all gifts available.
  *
  * @return NSArray of gift Object
@@ -132,5 +186,14 @@
 -(void)rejectGiftRequestWithId:(NSString*)requestId by:(NSString*)recipient completionBlock:(App42ResponseBlock)completionBlock;
 
 -(void)removeGiftWithRequestId:(NSString*)requestId by:(NSString*)recipient completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Get all gifts available for a user.
+ * @param userName
+ *        - Name of the user for whom all the gifts need to be fetched.
+ * @return NSArray of gift Object
+ * @throws App42Exception
+ */
+-(void)getAllGiftsByUser:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
 
 @end

@@ -133,4 +133,5 @@ extern NSString *const GIF;
  * @throws App42Exception
  */
 -(void)createAvatarFromFileDataWithName:(NSString*)avatarName userName:(NSString*)userName fileData:(NSData*)fileData description:(NSString*)description extension:(NSString*)extension completionBlock:(App42ResponseBlock)completionBlock;
+
 @end

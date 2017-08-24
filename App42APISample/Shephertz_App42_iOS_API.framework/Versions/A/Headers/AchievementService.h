@@ -36,6 +36,50 @@
 -(void)createAchievementWithName:(NSString*)achievementName description:(NSString*)description completionBlock:(App42ResponseBlock)completionBlock;
 
 /**
+ *  You can create multiple achievement or badge for your app.
+ *
+ * @param name
+ *            - Name of achievement to be cretaed
+ * @param description
+ *            - description of the achievement
+ * @param imageData
+ *            - Image raw data of the achievement icon
+ * @return Achievement Object
+ * @throws App42Exception
+ */
+-(void)createAchievementWithName:(NSString *)achievementName imageData:(NSData*)imageData description:(NSString *)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Edit Achievemnet
+ * @param name
+ * @param description
+ * @param inputStream
+ * @return void
+ * @throws App42Exception
+ */
+-(void)createAchievementWithName:(NSString *)achievementName imagePath:(NSString*)imagePath description:(NSString *)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Edit Achievemnet
+ * @param name
+ * @param description
+ * @param inputStream
+ * @return void
+ * @throws App42Exception
+ */
+-(void)editAchievementWithName:(NSString *)achievementName imageData:(NSData*)imageData description:(NSString *)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Edit Achievemnet
+ * @param name
+ * @param description
+ * @param iconPath
+ * @return void
+ * @throws App42Exception
+ */
+-(void)editAchievementWithName:(NSString *)achievementName imagePath:(NSString*)imagePath description:(NSString *)description completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
  *   App users can earn achievements based on your custom rules in your game.
  *
  * @param userName - Name of the user for which avatar has to earn
@@ -85,7 +129,6 @@
  * @return Achievement Object
  * @throws App42Exception
  */
-
 -(void)getAchievementByName:(NSString*)achievementName completionBlock:(App42ResponseBlock)completionBlock;
 
 /**
@@ -97,5 +140,8 @@
  * @throws App42Exception
  */
 -(void)getAllUsersWithAchievement:(NSString*)achievementName inGame:(NSString*)gameName completionBlock:(App42ResponseBlock)completionBlock;
+
+
+-(void)deleteUserAchievement:(NSString*)achievementName gameName:(NSString*)gameName userName:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
 
 @end

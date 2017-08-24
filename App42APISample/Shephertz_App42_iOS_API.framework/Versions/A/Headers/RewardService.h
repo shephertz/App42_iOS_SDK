@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "App42Service.h"
+#import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>
 
 @class Reward;
 
@@ -50,6 +50,37 @@
  * 
  */
 -(void)createReward:(NSString*)rewardName rewardDescription:(NSString*)rewardDescription completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Creates Reward. Reward can be Sword, Energy etc. When Reward Points have
+ * to be added the Reward name created using this method has to be
+ * specified.
+ *
+ * @param rewardName
+ *            - The reward that has to be created
+ * @param rewardDescription
+ *            - The description of the reward to be created
+ *
+ * @return Reward object containing the reward that has been created
+ *
+ */
+-(void)createReward:(NSString*)rewardName rewardDescription:(NSString*)rewardDescription rewardIconData:(NSData*)rewardIconData completionBlock:(App42ResponseBlock)completionBlock;
+
+/**
+ * Creates Reward. Reward can be Sword, Energy etc. When Reward Points have
+ * to be added the Reward name created using this method has to be
+ * specified.
+ *
+ * @param rewardName
+ *            - The reward that has to be created
+ * @param rewardDescription
+ *            - The description of the reward to be created
+ *
+ * @return Reward object containing the reward that has been created
+ *
+ */
+-(void)createReward:(NSString*)rewardName rewardDescription:(NSString*)rewardDescription rewardIconPath:(NSString*)rewardIconPath completionBlock:(App42ResponseBlock)completionBlock;
+
 /**
  * Fetches the count of all the Rewards
  *
@@ -198,5 +229,10 @@
  * @throws App42Exception
  */
 -(void) getUserRankingOnReward:(NSString*)gameName rewardName:(NSString*)rewardName userName:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
+
+
+-(void)editReward:(NSString*)rewardName rewardDescription:(NSString*)rewardDescription rewardIconData:(NSData*)rewardIconData completionBlock:(App42ResponseBlock)completionBloc;
+-(void)editReward:(NSString*)rewardName rewardDescription:(NSString*)rewardDescription rewardIconPath:(NSString*)rewardIconPath completionBlock:(App42ResponseBlock)completionBlock;
+-(void)getAllGameRewards:(NSString*)gameName byUser:(NSString*)userName completionBlock:(App42ResponseBlock)completionBlock;
 
 @end
