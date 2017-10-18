@@ -17,6 +17,7 @@
     int totalRecords;
     BOOL isFromCache;
     BOOL isOfflineSync;
+    
 }
 /*!
  *set and get the isResponseSuccess 

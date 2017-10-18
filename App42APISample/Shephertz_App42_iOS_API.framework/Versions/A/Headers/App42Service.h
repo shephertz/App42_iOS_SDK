@@ -84,6 +84,7 @@ typedef void (^App42ResponseBlock)(BOOL success, id responseObj, App42Exception 
  *set the pageOffset
  */
 @property(nonatomic,assign) int pageOffset;
+
 /*!
  *set the pageMaxRecords
  */

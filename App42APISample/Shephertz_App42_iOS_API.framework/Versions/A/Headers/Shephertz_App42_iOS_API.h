@@ -130,7 +130,7 @@
 #import <Shephertz_App42_iOS_API/Request.h>
 #import <Shephertz_App42_iOS_API/GiftService.h>
 
-#import <Shephertz_App42_iOS_API/Timer.h>
+#import <Shephertz_App42_iOS_API/App42Timer.h>
 #import <Shephertz_App42_iOS_API/TimerService.h>
 
 #import <Shephertz_App42_iOS_API/EventService.h>

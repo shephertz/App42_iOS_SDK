@@ -12,6 +12,10 @@ __Integrate in Swift Project__
 * In the Bridging header file, import your framework using the standard Objective C import syntax (e.g. #import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>).
 * This relinquishes the need to perform an import Shephertz_App42_iOS_API statement in your AppDelegate.swift file. You can now write code that utilizes whatever framework as long as it is imported using the bridging header. It is available throughout your project's Swift files.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 __Third Party Libraries__
 
 * [SBJson](http://www.sbjson.org/api/3.2/)
@@ -32,3 +36,4 @@ furnished to do so, subject to the following conditions:
   -The above copyright notice and this permission notice shall be included in
   -all copies or substantial portions of the Software.
 ```
+

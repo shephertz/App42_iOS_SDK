@@ -8,7 +8,7 @@
 
 #import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>
 
-@class Timer;
+@class App42Timer;
 @interface TimerService : App42Service
 
 - (id) init __attribute__((unavailable));

@@ -292,4 +292,20 @@ extern NSString *const DEVELOPMENT;
  */
 -(void)deleteChannel:(NSString*)channelName completionBlock:(App42ResponseBlock)completionBlock;
 
+/**
+ * Tracks push notificatiion delivery on client side.
+ *
+ * @return void
+ */
+-(void)trackPush:(App42ResponseBlock)completionBlock;
+
+
+/**
+ *
+ * @param userName
+ * get user push history
+ *
+ */
+-(void)getUserPushHistory:(NSString *)userName completionBlock:(App42ResponseBlock)completionBlock;
+
 @end

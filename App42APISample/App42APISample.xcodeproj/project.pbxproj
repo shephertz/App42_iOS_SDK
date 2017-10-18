@@ -339,6 +339,8 @@
 				TargetAttributes = {
 					5D1B57FF1AC18E8E0009276D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Manual;
 					};
 					5D1B58181AC18E8E0009276D = {
 						CreatedOnToolsVersion = 6.2;
@@ -547,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -554,6 +557,8 @@
 				INFOPLIST_FILE = App42APISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67528b67-e55f-480a-b4d9-17fb4baa9f29";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
 			};
 			name = Debug;
 		};
@@ -561,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -568,6 +574,8 @@
 				INFOPLIST_FILE = App42APISample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67528b67-e55f-480a-b4d9-17fb4baa9f29";
+				PROVISIONING_PROFILE_SPECIFIER = ShephertzDevelopmentProfile;
 			};
 			name = Release;
 		};
