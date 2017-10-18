@@ -11,6 +11,7 @@ __Integrate in Swift Project__
 * Delete your newly created Objective C file but retain the bridging header file ${YOURPROJ}-Bridging-Header.h.
 * In the Bridging header file, import your framework using the standard Objective C import syntax (e.g. #import <Shephertz_App42_iOS_API/Shephertz_App42_iOS_API.h>).
 * This relinquishes the need to perform an import Shephertz_App42_iOS_API statement in your AppDelegate.swift file. You can now write code that utilizes whatever framework as long as it is imported using the bridging header. It is available throughout your project's Swift files.
+* Follow the [documentation](http://api.shephertz.com/tutorial/Getting-Started-iOS/?index=gs-iossdk) to integrate Shephertz SDK  
 
 __Third Party Libraries__
 
