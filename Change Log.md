@@ -1,3 +1,4 @@
+* [Release Version 3.5.5.6](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3556)
 * [Release Version 3.5.5.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3555)
 * [Release Version 3.5.5.4](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3554)
 * [Release Version 3.5.5.3](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3553)
@@ -29,11 +30,24 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
 
+## Version 3.5.5.6
+
+**Release Date:** 08-11-2017
+
+**Release Version:** 3.5.5.6
+
+**This release contains the following bug fix:**
+```
+-Fixed Crash of Offline API Requests
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
+
+
 ## Version 3.5.5.5
 
 **Release Date:** 02-11-2017
 
-**Release Version:** 3.5.5.4
+**Release Version:** 3.5.5.5
 
 **This release contains the following bug fix:**
 ```
