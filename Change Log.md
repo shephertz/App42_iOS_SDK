@@ -1,3 +1,5 @@
+* [Release Version 3.5.5.9](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3559)
+* [Release Version 3.5.5.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3558)
 * [Release Version 3.5.5.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3557)
 * [Release Version 3.5.5.6](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3556)
 * [Release Version 3.5.5.5](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-3555)
@@ -30,6 +32,43 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_iOS_SDK/blob/master/Change%20Log.md#version-17)
 
+## Version 3.5.5.9
+
+**Release Date:** 28-05-2018
+
+**Release Version:** 3.5.5.9
+
+**The following features have been pushed to the services :**
+
+**UserService**
+
+```
+deleteUserProfile
+unsubscribeMediaChannel
+deleteMaUserProfile
+getMarketOptoutFlag
+marketingOptout
+
+```
+
+**SocialService**
+
+```
+deLinkAllSocialAccount
+
+```
+
+## Version 3.5.5.8
+
+**Release Date:** 2-12-2017
+
+**Release Version:** 3.5.5.8
+
+**This release contains the following bug fix:**
+```
+-Fixed Memory Leak
+```
+__Note:-__ The Synchronous APIs are deprecated and will be removed from the version 4.0 onwards.
 
 ## Version 3.5.5.7
 
@@ -242,7 +281,7 @@ __Note:-__ The Synchronous APIs are deprecated and will be removed from the vers
 
 
 ## Version 3.2
- 
+
 
 **Release Date:** 23-12-2014
 
@@ -280,7 +319,7 @@ None
 ```
 
 ## Version 3.0
- 
+
 
 **Release Date:** 28-10-2014
 
@@ -299,7 +338,7 @@ None
 ```
 
 ## Version 2.8.2
- 
+
 
 **Release Date:** 03-10-2014
 
@@ -313,7 +352,7 @@ None
 ```
 
 ## Version 2.8.1
- 
+
 
 **Release Date:** 06-08-2014
 
@@ -336,7 +375,7 @@ None
 
 
 ## Version 2.8
- 
+
 
 **Release Date:** 20-06-2014
 
@@ -358,7 +397,7 @@ None
 ```
 
 ## Version 2.7
- 
+
 
 **Release Date:** 29-04-2014
 
@@ -415,7 +454,7 @@ None
 
 
 ## Version 2.6
- 
+
 
 **Release Date:** 14-04-2014
 
@@ -440,7 +479,7 @@ None
 ```
 
 ## Version 2.5
- 
+
 
 **Release Date:** 11-04-2014
 
@@ -464,7 +503,7 @@ Fixed selectKeys bug
 
 
 ## Version 2.4
- 
+
 
 **Release Date:** 04-04-2014
 
@@ -489,7 +528,7 @@ None
 
 
 ## Version 2.3
- 
+
 
 **Release Date:** 29-03-2014
 
@@ -514,7 +553,7 @@ None
 
 
 ## Version 2.2
- 
+
 
 **Release Date:** 26-03-2014
 
